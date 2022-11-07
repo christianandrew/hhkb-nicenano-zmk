@@ -9,16 +9,16 @@
     kscan0: kscan_0 {
         compatible = "zmk,kscan-gpio-topre";
         label = "KSCAN";
-        gpios = <&pro_micro_d 9 GPIO_ACTIVE_HIGH>, /* 0: POWER */
-                <&pro_micro_d 8 (GPIO_ACTIVE_LOW|GPIO_PULL_UP)>, /* 1: KEY */
-                <&pro_micro_d 7 GPIO_ACTIVE_HIGH>, /* 2: HYS */
-                <&pro_micro_d 6 GPIO_ACTIVE_HIGH>, /* 3: BIT0 */
-                <&pro_micro_d 5 GPIO_ACTIVE_HIGH>, /* 4: BIT1 */
-                <&pro_micro_d 4 GPIO_ACTIVE_HIGH>, /* 5: BIT2 */
-                <&pro_micro_d 3 GPIO_ACTIVE_HIGH>, /* 6: BIT3 */
-                <&pro_micro_d 2 GPIO_ACTIVE_HIGH>, /* 7: BIT4 */
-                <&pro_micro_d 0 GPIO_ACTIVE_HIGH>, /* 8: BIT5 */
-                <&pro_micro_d 1 GPIO_ACTIVE_HIGH>; /* 9: STROBE */
+        gpios = <&pro_micro 9 GPIO_ACTIVE_HIGH>, /* 0: POWER */
+                <&pro_micro 8 (GPIO_ACTIVE_LOW|GPIO_PULL_UP)>, /* 1: KEY */
+                <&pro_micro 7 GPIO_ACTIVE_HIGH>, /* 2: HYS */
+                <&pro_micro 6 GPIO_ACTIVE_HIGH>, /* 3: BIT0 */
+                <&pro_micro 5 GPIO_ACTIVE_HIGH>, /* 4: BIT1 */
+                <&pro_micro 4 GPIO_ACTIVE_HIGH>, /* 5: BIT2 */
+                <&pro_micro 3 GPIO_ACTIVE_HIGH>, /* 6: BIT3 */
+                <&pro_micro 2 GPIO_ACTIVE_HIGH>, /* 7: BIT4 */
+                <&pro_micro 0 GPIO_ACTIVE_HIGH>, /* 8: BIT5 */
+                <&pro_micro 1 GPIO_ACTIVE_HIGH>; /* 9: STROBE */
     };
 
     default_transform: keymap_transform_0 {
